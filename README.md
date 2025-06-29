@@ -58,8 +58,7 @@ git clone https://github.com/yourusername/shiftstats.git
 cd shiftstats
 ```
 
-**Create and activate a virtual environment
-**
+**Create and activate a virtual environment**
 
 ```bash
 python -m venv venv
@@ -80,8 +79,7 @@ Follow the notebook steps to:
 
 - Write aggregated results to Postgres
 
-**Start Metabase
-**
+**Start Metabase**
 
 ```bash
 docker compose up -d
@@ -89,8 +87,7 @@ docker compose up -d
 
 Open http://localhost:3000 and connect Metabase to your local Postgres.
 
-**Explore Dashboards
-**
+**Explore Dashboards**
 Use Metabase to build and share charts like:
 
 - Total shifts sent vs. accepted vs. completed
