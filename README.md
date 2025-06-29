@@ -53,10 +53,10 @@ This project answers two main business questions for a pretend operations team a
 
 **Clone the repo**
 
-````bash
+```bash
 git clone https://github.com/yourusername/shiftstats.git
 cd shiftstats
-
+```
 
 **Create and activate a virtual environment
 **
@@ -65,10 +65,12 @@ cd shiftstats
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-Run the Jupyter Notebook
-````
+```
 
-```bash
+Run the Jupyter Notebook
+
+```
+bash
 jupyter notebook
 ```
 
