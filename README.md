@@ -53,10 +53,10 @@ This project answers two main business questions for a pretend operations team a
 
 **Clone the repo**
 
-```bash
+````bash
 git clone https://github.com/yourusername/shiftstats.git
 cd shiftstats
-```
+
 
 **Create and activate a virtual environment
 **
@@ -66,10 +66,12 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 Run the Jupyter Notebook
+````
+
+```bash
+jupyter notebook
 ```
 
-````bash
-jupyter notebook```
 Follow the notebook steps to:
 
 - Load and clean the data
@@ -78,8 +80,11 @@ Follow the notebook steps to:
 
 **Start Metabase
 **
+
 ```bash
-docker compose up -d```
+docker compose up -d
+```
+
 Open http://localhost:3000 and connect Metabase to your local Postgres.
 
 **Explore Dashboards
@@ -103,4 +108,3 @@ Designed to showcase quick EDA, lightweight pipeline, and practical dashboarding
 ## 👤 [Find Chris Adan on LinkedIn](https://www.linkedin.com/in/chrisadan/)
 
 ### [Read on Medium](https://upandtothewrite.medium.com/)
-````
