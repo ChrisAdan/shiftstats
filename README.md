@@ -68,8 +68,7 @@ pip install -r requirements.txt
 
 Run the Jupyter Notebook
 
-```
-bash
+```bash
 jupyter notebook
 ```
 
